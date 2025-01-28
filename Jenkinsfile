@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     // Build Docker image using Dockerfile
-                    sh "docker build -t ${SACHIN}:latest ."
+                    sh "docker build -t sachin:latest ."
                 }
             }
         }
